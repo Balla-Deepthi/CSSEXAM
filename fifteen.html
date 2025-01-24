@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+  html,body
+  {
+    height: 100%;
+  }
+  .hero-section
+  {
+    background-image: url('./environment.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  @media screen  and (max-width : 600px){
+    .hero-section
+    {
+        font-size: 16px;
+    }
+    
+  }
+  @media screen  and (max-width : 1200px) and (min-width : 600px){
+    .hero-section
+    {
+        font-size: 24px;
+    }
+    
+  }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+  <h1>Welcome</h1>
+  <p>Explore our website for amazing content.</p>
+</div>
+
+</body>
+</html>
